@@ -17,7 +17,7 @@ def generate_plots():
     """
     # --- 1. Data Loading and Preparation ---
     try:
-        df = pd.read_csv('Data_Detective')
+        df = pd.read_csv('Data_Detective.csv')
     except FileNotFoundError:
         return None, None # Handle case where file is not found
 
